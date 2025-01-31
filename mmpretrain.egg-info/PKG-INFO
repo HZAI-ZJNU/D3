@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mmpretrain
+Version: 1.2.0
+Summary: OpenMMLab Model Pretraining Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmpretrain
+Author: MMPretrain Contributors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,image classification,unsupervised learning,self-supervised learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: optional
+Provides-Extra: mim
+Provides-Extra: multimodal
+License-File: LICENSE
+
+# Our code is currently being organized and will be open-sourced in a few days.
+
+

@@ -1,0 +1,25 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\dataset\ExDark_coco_yolo\data  # dataset root dir
+train:
+  - images/train  # train images (relative to 'path') 4712 images
+  - images/val  # 1178 images
+val:
+  - images/test  # val images (relative to 'path') 1473 images
+test:
+
+
+# Classes
+names:
+  0: Bicycle
+  1: Boat
+  2: Bottle
+  3: Bus
+  4: Car
+  5: Cat
+  6: Chair
+  7: Cup
+  8: Dog
+  9: Motorbike
+  10: People
+  11: Table
+
