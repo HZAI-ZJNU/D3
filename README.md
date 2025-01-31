@@ -53,12 +53,12 @@ imagenet
 
 ### Training
 Our work employs 8X GPUs for training on classification and object detection.     
-Here is an example: train SCSA + ResNet-50 with an single GPU:
+Here is an example: train D3 + ResNet-50 with an single GPU:
 ```shell
 python ./tools/train.py work_dirs/resnet50_8xb32_in1k_D3.py --work-dir path_to_exp --amp 
 ```
 
-Here is an example: train SCSA + ResNet-50 with an multiple GPUs:
+Here is an example: train D3 + ResNet-50 with an multiple GPUs:
 ```shell
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 export PORT=54321
@@ -66,7 +66,7 @@ bash ./tools/dist_train.sh work_dirs/resnet50_8xb32_in1k_D3.py 8 --work-dir path
 ```
 
 ### Testing
-Test SCSA + ResNet-50 with an single GPU:
+Test D3 + ResNet-50 with an single GPU:
 ```shell
 python .tools/test.py work_dirs/resnet50_8xb32_in1k_D3. path_to_checkpoint --work-dir path_to_exp
 ```
@@ -77,7 +77,7 @@ We will open source the relevant model weights later.
 ## Acknowledgement
 The code in this repository is developed based on the [MMPretrain](https://github.com/open-mmlab/mmpretrain). Furthermore, the detection and segmentation tasks involved in this work are implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) and [Ultralytics](https://github.com/ultralytics/ultralytics).
 
-## Cite SCSA
+## Cite D3
 If you find this repository useful, please use the following BibTeX entry for citation.
 ```latex
 @article{si2025attention,
