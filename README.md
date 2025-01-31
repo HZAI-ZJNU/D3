@@ -7,7 +7,7 @@ The implementation code of D3 is located at [here](https://github.com/HZAI-ZJNU/
 
 ### Install
 
-We implement SCSA using `MMPretrain V1.2.0`, `MMDetection V3.3.0`, `MMSegmentation V1.2.2` and `MMCV V2.1.0`.  
+We implement D3 using `MMPretrain V1.2.0`, `MMDetection V3.3.0`, `MMSegmentation V1.2.2` and `MMCV V2.1.0`.  
 We train and test our models under `python=3.10`, `pytorch=2.1.1`, `cuda=11.8`.
 
 
