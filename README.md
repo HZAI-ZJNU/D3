@@ -1,7 +1,7 @@
 # SCSA
 This repo is the official of implementation of "[Attention-modulated frequency-aware pooling via spatial guidance](https://www.sciencedirect.com/science/article/abs/pii/S0925231225001791)".
 
-The implementation directory of D3 is located at [here](https://github.com/HZAI-ZJNU/D3/blob/main/mmpretrain/models/pools/D3.py).
+The implementation code of D3 is located at [here](https://github.com/HZAI-ZJNU/D3/blob/main/mmpretrain/models/pools/D3.py).
 
 ## Running
 
