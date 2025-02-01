@@ -73,9 +73,6 @@ Test D3 + ResNet-50 with an single GPU:
 python ./tools/test.py work_dirs/resnet50_8xb32_in1k_D3.py path_to_checkpoint --work-dir path_to_exp
 ```
 
-## Results
-We will open source the relevant model weights later.
-
 ## Acknowledgement
 The code in this repository is developed based on the [MMPretrain](https://github.com/open-mmlab/mmpretrain). Furthermore, the detection and segmentation tasks involved in this work are implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) and [Ultralytics](https://github.com/ultralytics/ultralytics).
 
