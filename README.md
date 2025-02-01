@@ -74,7 +74,7 @@ python ./tools/test.py work_dirs/resnet50_8xb32_in1k_D3.py path_to_checkpoint --
 ```
 
 ## Acknowledgement
-The code in this repository is developed based on the [MMPretrain](https://github.com/open-mmlab/mmpretrain). Furthermore, the detection and segmentation tasks involved in this work are implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) and [Ultralytics](https://github.com/ultralytics/ultralytics).
+The code in this repository is developed based on the [MMPretrain](https://github.com/open-mmlab/mmpretrain). Furthermore, the detection task involved in this work are implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) and [Ultralytics](https://github.com/ultralytics/ultralytics).
 
 ## Cite D3
 If you find this repository useful, please use the following BibTeX entry for citation.
