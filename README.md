@@ -70,7 +70,7 @@ bash ./tools/dist_train.sh work_dirs/resnet50_8xb32_in1k_D3.py 8 --work-dir path
 ### Testing
 Test D3 + ResNet-50 with an single GPU:
 ```shell
-python .tools/test.py work_dirs/resnet50_8xb32_in1k_D3. path_to_checkpoint --work-dir path_to_exp
+python ./tools/test.py work_dirs/resnet50_8xb32_in1k_D3.py path_to_checkpoint --work-dir path_to_exp
 ```
 
 ## Results
